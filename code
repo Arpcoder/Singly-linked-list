@@ -101,6 +101,10 @@ void Delete(Node *&head,ll pos)
 int main()
 {
        IOS;
+       //we can do the following also-
+       //Node *node1=new Node(data);
+       //Node *head=node1;
+       //Node *tail=node1;
        Node *head=new Node(3);
        Node *node1=new Node(4);
        Node *tail=new Node(5);
